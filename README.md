@@ -1,4 +1,5 @@
 This is the repository of the project "Detecting value-expressive text posts in Russian social media"
+
 Three steps of research:
 1.	Data retrieving, preprocessing and filtering
 Folder notebooks_data_retrieving_filtering contains scripts for:
