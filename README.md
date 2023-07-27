@@ -41,7 +41,7 @@ According to ...
 <h2>Citation</h2>
 ...
 <h2>References</h2>
-<a name="artm"></a> <a href="https://github.com/bigartm/bigartm" target="_blank">https://github.com/bigartm/bigartm</a> <br>
+<a name="artm"></a> https://github.com/bigartm/bigartm <br>
 <a name="rubert-tiny2"></a>https://huggingface.co/cointegrated/rubert-tiny2 <br>
 <a name="conversationalbert"></a>https://huggingface.co/DeepPavlov/rubert-base-cased-conversational  <br>
 <a name="sbert"></a>https://huggingface.co/ai-forever/sbert_large_mt_nlu_ru  <br>
