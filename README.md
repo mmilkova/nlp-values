@@ -1,16 +1,20 @@
-#Detecting value-expressive text posts in Russian social media
+<b>Detecting value-expressive text posts in Russian social media</b>
 
-This is the repository of the project "Detecting value-expressive text posts in Russian social media"
+This is the repository of the project.
 
 Three steps of research:
-1.	Data retrieving, preprocessing and filtering
-Folder notebooks_data_retrieving_filtering contains scripts for:
-Using the VK API to retrieve posts from the walls of random users from the Russian social network VKontakte - VKAPI_data_retrieving.ipynb
-Preprocessing retrieved text data – Preprocessing.ipynb
-Using topic modeling (ARTM) to extract bigrams that characterized spam posts - TopicModeling.ipynb
-Using simple rules for baseline classification to filter spam -  Spam_filtering.ipynb
-Training SVM, LogitBoost, and LogisticRegression models based on embeddings from rubert-tiny2 for binary classification (spam|not spam) - classification_to_filter_spam.ipynb
-2.	Data annotation
+<ol>
+<li>Data retrieving, preprocessing and filtering</li>
+
+<br>Folder <i>notebooks_data_retrieving_filtering</i> contains scripts for:
+
+  <ul>
+<li>Using the VK API to retrieve posts from the walls of random users from the Russian social network VKontakte - <i>VKAPI_data_retrieving.ipynb</i></li>
+<li>Preprocessing retrieved text data – <i>Preprocessing.ipynb</i></li>
+<li>Using topic modeling (ARTM) to extract bigrams that characterized spam posts - <i>TopicModeling.ipynb</i></li>
+<li>Using simple rules for baseline classification to filter spam -  <i>Spam_filtering.ipynb</i></li>
+<li>Training SVM, LogitBoost, and LogisticRegression models based on embeddings from rubert-tiny2 for binary classification (spam|not spam) - classification_to_filter_spam.ipynb</li></ul>
+<li>Data annotation</li>
 We use trial dataset (804 posts) and annotate it by experts, crowd-workers, and ChatGPT. Train dataset (5035 posts) is annotated by crowd-workers and ChatGPT.
 Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turbo model is used for ChatGPT annotation. 
 The combination of crowd and ChatGPT is supposed to result in better accuracy.
