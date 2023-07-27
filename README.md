@@ -32,7 +32,7 @@ Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turb
 <ul>
 <br>
 
-<li>Script to fine-tune rubert-tiny2 (for 5 epochs) and use its 312-embedding, as well as use 768-embeddings from <a href=#conversationalbert>Conversational BERT</a> – <i>rubert-tiny2_ConversationalRuBERT.ipynb</i></li>
+<li>Script to fine-tune rubert-tiny2 (for 5 epochs) and use its 312-embedding, as well as use 768-embeddings from <a href=#conversationalbert>Conversational RuBERT</a> – <i>rubert-tiny2_ConversationalRuBERT.ipynb</i></li>
 <li>Script for using 1024-embeddings from <a href=#sbert>SBERT</a> – <i>SBERT.ipynb</i></li>
 </ul>
 </ol>
@@ -41,7 +41,7 @@ According to ...
 <h2>Citation</h2>
 ...
 <h2>References</h2>
-<a name="artm"></a> https://github.com/bigartm/bigartm <br>
+<a name="artm"></a> <a href='https://github.com/bigartm/bigartm' target='blank'>https://github.com/bigartm/bigartm</a> <br>
 <a name="rubert-tiny2"></a>https://huggingface.co/cointegrated/rubert-tiny2 <br>
 <a name="conversationalbert"></a>https://huggingface.co/DeepPavlov/rubert-base-cased-conversational  <br>
 <a name="sbert"></a>https://huggingface.co/ai-forever/sbert_large_mt_nlu_ru  <br>
