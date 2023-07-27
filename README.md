@@ -2,7 +2,7 @@
 
 This is the repository of the project.
 
-Three steps of research:
+<h2>Three steps of research</h2>
 <ol>
 <li>Data retrieving, preprocessing and filtering</li>
 
@@ -11,7 +11,7 @@ Three steps of research:
   <ul>
 <li>Using the VK API to retrieve posts from the walls of random users from the Russian social network VKontakte - <i>VKAPI_data_retrieving.ipynb</i></li>
 <li>Preprocessing retrieved text data – <i>Preprocessing.ipynb</i></li>
-<li>Using topic modeling (ARTM) to extract bigrams that characterized spam posts - <i>TopicModeling.ipynb</i>. Folder <i>dictionaries&instructions</i> contains files (filter-words.txt, filter-words_if_linked.txt) with the most common bigrams to identify spam posts </li>
+<li>Using topic modeling (<a href=#artm>ARTM</a>) to extract bigrams that characterized spam posts - <i>TopicModeling.ipynb</i>. Folder <i>dictionaries&instructions</i> contains files (filter-words.txt, filter-words_if_linked.txt) with the most common bigrams to identify spam posts </li>
 <li>Using simple rules for baseline classification to filter spam -  <i>Spam_filtering.ipynb</i></li>
 <li>Training SVM, LogitBoost, and LogisticRegression models based on embeddings from rubert-tiny2 for binary classification (spam|not spam) - <i>classification_to_filter_spam.ipynb</i></li></ul>
 <br>
@@ -31,7 +31,19 @@ Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turb
 
 <ul>
 <br>
+
 <li>Script to fine-tune rubert-tiny2 (for 5 epochs) and use its 312-embedding, as well as use 768-embeddings from Conversational BERT – <i>rubert-tiny2_ConversationalRuBERT.ipynb</i></li>
 <li>Script for using 1024-embeddings from SBERT – <i>SBERT.ipynb</i></li>
 </ul>
 </ol>
+<h2>Data</h2>
+According to ...
+<h2>Citation</h2>
+...
+<h2>References</h2>
+<a name="artm"></a> https://github.com/bigartm/bigartm <br>
+https://huggingface.co/cointegrated/rubert-tiny2 <br>
+https://huggingface.co/DeepPavlov/rubert-base-cased-conversational  <br>
+https://huggingface.co/ai-forever/sbert_large_mt_nlu_ru  <br>
+<h2>License</h2>
+This project is licensed under the ... License
