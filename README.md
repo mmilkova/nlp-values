@@ -43,7 +43,7 @@ According to ...
 <h2>References</h2>
 <a name="artm"></a> https://github.com/bigartm/bigartm <br>
 <a name="rubert-tiny2"></a>https://huggingface.co/cointegrated/rubert-tiny2 <br>
-<a name="#conversationalbert"></a>https://huggingface.co/DeepPavlov/rubert-base-cased-conversational  <br>
+<a name="conversationalbert"></a>https://huggingface.co/DeepPavlov/rubert-base-cased-conversational  <br>
 <a name="sbert"></a>https://huggingface.co/ai-forever/sbert_large_mt_nlu_ru  <br>
 <h2>License</h2>
 This project is licensed under the ... License
