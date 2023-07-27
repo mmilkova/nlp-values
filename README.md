@@ -1,4 +1,4 @@
-<b>Detecting value-expressive text posts in Russian social media</b>
+<h1>Detecting value-expressive text posts in Russian social media</h1>
 
 This is the repository of the project.
 
@@ -11,14 +11,14 @@ Three steps of research:
   <ul>
 <li>Using the VK API to retrieve posts from the walls of random users from the Russian social network VKontakte - <i>VKAPI_data_retrieving.ipynb</i></li>
 <li>Preprocessing retrieved text data – <i>Preprocessing.ipynb</i></li>
-<li>Using topic modeling (ARTM) to extract bigrams that characterized spam posts - <i>TopicModeling.ipynb</i></li>
+<li>Using topic modeling (ARTM) to extract bigrams that characterized spam posts - <i>TopicModeling.ipynb</i>. Folder <i>dictionaries&instructions</i> contains files (filter-words.txt, filter-words_if_linked.txt) with the most common bigrams to identify spam posts </li>
 <li>Using simple rules for baseline classification to filter spam -  <i>Spam_filtering.ipynb</i></li>
 <li>Training SVM, LogitBoost, and LogisticRegression models based on embeddings from rubert-tiny2 for binary classification (spam|not spam) - <i>classification_to_filter_spam.ipynb</i></li></ul>
 <br>
 <li>Data annotation</li>
 <br>
 We use trial dataset (804 posts) and annotate it by experts, crowd-workers, and ChatGPT. Train dataset (5035 posts) is annotated by crowd-workers and ChatGPT.
-Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turbo model is used for ChatGPT annotation. The combination of crowd and ChatGPT is supposed to result in better accuracy.
+Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turbo model is used for ChatGPT annotation. The combination of crowd and ChatGPT is supposed to result in better accuracy. The annotation guidline can be found in Instruction_for_ChatGPT.txt in <i>dictionaries&instructions</i> folder.
 
 <br>Folder <i>notebooks_annotation</i> contains scipts for:
 
