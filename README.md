@@ -37,7 +37,8 @@ Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turb
 </ul>
 </ol>
 <h2>Data</h2>
-According to ...
+Data processing was carried out for research purposes. We respect the essence of the right to data protection and do not publish users personal data in the repository.
+To reproduce this study for scintific purposes, please contact the authors.
 <h2>Citation</h2>
 ...
 <h2>References</h2>
