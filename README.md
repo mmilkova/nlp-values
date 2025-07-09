@@ -40,8 +40,8 @@ Crowd-workers annotation is carrying out through Yandex.Toloka, and gpt-3.5-turb
 Data processing was carried out for research purposes. We respect the essence of the right to data protection and do not publish users personal data in the repository.
 To reproduce this study for scintific purposes, please contact the authors.
 <h2>Citation</h2>
-Milkova M., Rudnev M. & Okolskaya L. (2023) Detecting value-expressive text posts in Russian social media. arXiv:2312.08968 
-https://doi.org/10.48550/arXiv.2312.08968
+Milkova M., Rudnev M. & Okolskaya L. (2023) Detecting value-expressive text posts in Russian social media. arXiv:2312.08968v2 
+[https://doi.org/10.48550/arXiv.2312.08968](https://arxiv.org/pdf/2312.08968v2)
 <h2>References</h2>
 <a name="artm"></a> https://github.com/bigartm/bigartm <br>
 <a name="rubert-tiny2"></a>https://huggingface.co/cointegrated/rubert-tiny2 <br>
