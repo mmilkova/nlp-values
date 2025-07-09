@@ -41,7 +41,7 @@ Data processing was carried out for research purposes. We respect the essence of
 To reproduce this study for scintific purposes, please contact the authors.
 <h2>Citation</h2>
 Milkova M., Rudnev M. & Okolskaya L. (2023) Detecting value-expressive text posts in Russian social media. arXiv:2312.08968v2 
-[https://arxiv.org/pdf/2312.08968v2]https://arxiv.org/pdf/2312.08968v2
+https://arxiv.org/pdf/2312.08968v2
 <h2>References</h2>
 <a name="artm"></a> https://github.com/bigartm/bigartm <br>
 <a name="rubert-tiny2"></a>https://huggingface.co/cointegrated/rubert-tiny2 <br>
